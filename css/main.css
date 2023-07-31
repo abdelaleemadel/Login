@@ -1,0 +1,73 @@
+/* GENERAL */
+:root {
+    --main-color: #17a2b8;
+    --bg-color: #24353F;
+    --input-color: #A8B6B6;
+}
+
+body *,
+body {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--bg-color);
+}
+
+/* CARD  */
+section>div {
+    /* border: 1px red solid; */
+    box-shadow: -5px 2px 54px -9px black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+::placeholder {
+    color: var(--input-color) !important;
+}
+
+input {
+    color: white !important;
+    background-color: var(--bg-color) !important;
+}
+
+#signUpBtn,
+#signInBtn {
+    border: 1px var(--main-color) solid;
+    color: var(--main-color);
+    transition: all 0.4s;
+}
+
+#signUpBtn:hover,
+#signInBtn:hover {
+    background: var(--main-color);
+    color: white;
+}
+
+span {
+    cursor: pointer;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+/* END GENERAL */
+
+/* HOME  */
+.navbar {
+    box-shadow: -5px 2px 54px -9px black !important;
+    background-color: var(--bg-color) !important;
+}
+
+#logOutBtn:hover {
+    color: white !important;
+}
+
+.homeBody {
+    height: 90vh;
+}
+
+/* END HOME  */
